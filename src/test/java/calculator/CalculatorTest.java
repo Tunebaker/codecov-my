@@ -15,6 +15,12 @@ public class CalculatorTest extends TestCase {
         assertEquals(Calculator.multiply(0, 2.0), 0.0, DELTA);
         assertEquals(Calculator.multiply(2.0, 0), 0.0, DELTA);
         assertEquals(Calculator.multiply(-4, 2.0), -8.0, DELTA);
+    }    public void testMultiply94() {
+        assertEquals(Calculator.multiply94(1, 2), 2.0, DELTA);
+        assertEquals(Calculator.multiply94(1.0, 2.0), 2.0, DELTA);
+        assertEquals(Calculator.multiply(0, 2.0), 0.0, DELTA);
+        assertEquals(Calculator.multiply(2.0, 0), 0.0, DELTA);
+        assertEquals(Calculator.multiply(-4, 2.0), -8.0, DELTA);
     }
 
 }
