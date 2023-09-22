@@ -14,4 +14,9 @@ public class Calculator {
         return x * y;
     }
 
+    public static double multiply94(double x, double y) {
+        return x * y;
+    }
+
+
 }
